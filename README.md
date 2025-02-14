@@ -1,4 +1,4 @@
-# ChatUnity Project
+# ChatUnity-IA Project
 
 ChatUnity è un'applicazione AI progettata per facilitare la comunicazione e l'interazione senza soluzione di continuità attraverso tecniche avanzate di deep learning. Questo progetto mira a fornire una struttura solida per la creazione di agenti conversazionali e chatbot.
 ## Struttura del progetto
