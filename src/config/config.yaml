@@ -1,0 +1,28 @@
+model:
+  name: ChatUnityModel
+  version: 1.0
+  parameters:
+    learning_rate: 0.001
+    batch_size: 32
+    epochs: 50
+    dropout_rate: 0.5
+
+data:
+  train_data_path: "data/train.csv"
+  test_data_path: "data/test.csv"
+  validation_data_path: "data/validation.csv"
+
+logging:
+  level: INFO
+  log_file: "logs/chatunity.log"
+
+runtime:
+  seed: 42
+  device: "cuda"  # or "cpu" depending on the environment
+
+features:
+  use_augmentation: true
+  augmentation_methods:
+    - random_flip
+    - random_crop
+    - color_jitter
