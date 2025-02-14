@@ -1,8 +1,7 @@
 # ChatUnity Project
 
-ChatUnity is an AI application designed to facilitate seamless communication and interaction through advanced deep learning techniques. This project aims to provide a robust framework for building conversational agents and chatbots.
-
-## Project Structure
+ChatUnity è un'applicazione AI progettata per facilitare la comunicazione e l'interazione senza soluzione di continuità attraverso tecniche avanzate di deep learning. Questo progetto mira a fornire una struttura solida per la creazione di agenti conversazionali e chatbot.
+## Struttura del progetto
 
 ```
 ChatUnity
@@ -21,7 +20,7 @@ ChatUnity
 └── README.md            # Project documentation
 ```
 
-## Setup Instructions
+## Istruzioni Setup 
 
 1. Clone the repository:
    ```
@@ -29,7 +28,7 @@ ChatUnity
    cd ChatUnity
    ```
 
-2. Install the required dependencies:
+2. Installa gli required dependencies:
    ```
    pip install -r requirements.txt
    ```
@@ -43,10 +42,7 @@ To run the application, execute the following command:
 python src/main.py
 ```
 
-## Overview
+## Panoramica
 
-ChatUnity leverages state-of-the-art deep learning models to enhance conversational capabilities. The application is modular, allowing for easy updates and improvements to individual components such as data handling, model training, and utility functions.
+ChatUnity sfrutta modelli di deep learning all'avanguardia per migliorare le capacità di conversazione. L'applicazione è modulare e consente facili aggiornamenti e miglioramenti ai singoli componenti come la gestione dei dati, l'addestramento del modello e le funzioni di utilità.
 
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
